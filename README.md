@@ -37,3 +37,7 @@ In this code, dynamic programming is applied through value iteration to solve a 
 Iteratively improves the value of each state by considering all possible actions.
 Combines rewards with future discounted rewards, capturing long-term benefits over merely immediate rewards.
 Uses previously computed values for each state (stored in value_function) to optimize current state values without redundant recalculations, characteristic of dynamic programming.
+
+## Sample output
+for an example grid with 10 states, 3 actions, and a discount factor of 0.9
+![image](https://github.com/user-attachments/assets/69127a66-ce20-4b69-b6bd-c48ecaf86192)
